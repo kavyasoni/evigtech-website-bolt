@@ -12,7 +12,10 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100">
-      <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-slate-200">
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-slate-900 focus:text-white focus:rounded">
+        Skip to main content
+      </a>
+      <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-slate-200" role="navigation" aria-label="Main navigation">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="text-2xl font-bold bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent">
@@ -29,6 +32,8 @@ function App() {
             <button
               className="md:hidden"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
+              aria-expanded={mobileMenuOpen}
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -47,7 +52,8 @@ function App() {
         )}
       </nav>
 
-      <section className="pt-32 pb-20 px-6 lg:px-8">
+      <main id="main-content">
+        <section className="pt-32 pb-20 px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-7xl font-bold text-slate-900 leading-tight mb-6">
@@ -247,7 +253,7 @@ function App() {
 
             <div className="flex flex-wrap justify-center gap-4 mb-10">
               <a
-                href="mailto:kavya@example.com"
+                href="mailto:contact@kavyasoni.com"
                 className="inline-flex items-center gap-2 bg-white text-slate-900 px-8 py-4 rounded-lg hover:bg-slate-100 transition-all hover:shadow-lg font-semibold"
               >
                 <Mail className="w-5 h-5" />
@@ -265,15 +271,22 @@ function App() {
             </div>
 
             <div className="flex justify-center gap-6">
-              <a href="https://github.com/kavyasoni" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors">
+              <a
+                href="https://github.com/kavyasoni"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-400 hover:text-white transition-colors"
+                aria-label="GitHub Profile"
+              >
                 <Github className="w-6 h-6" />
               </a>
             </div>
           </div>
         </div>
       </section>
+      </main>
 
-      <footer className="py-8 px-6 lg:px-8 border-t border-slate-200">
+      <footer className="py-8 px-6 lg:px-8 border-t border-slate-200" role="contentinfo">
         <div className="max-w-7xl mx-auto text-center text-slate-600">
           <p>© 2025 Kavya Soni. All rights reserved.</p>
         </div>
