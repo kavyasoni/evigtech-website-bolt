@@ -39,7 +39,7 @@ function App() {
             <img
               src="/evigtech_logo.png"
               alt="EvigTech"
-              className="h-6 sm:h-8 w-auto object-contain"
+              className="h-8 sm:h-10 w-auto object-contain"
               width="120"
               height="32"
             />
