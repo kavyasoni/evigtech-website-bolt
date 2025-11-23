@@ -123,13 +123,15 @@ function App() {
           <div className="max-w-7xl mx-auto">
             <div className="max-w-3xl">
               <h1 className="text-5xl md:text-7xl font-bold text-slate-900 leading-tight mb-6">
-                Turning startup visions into
+                Turning visions into
                 <span className="block bg-gradient-to-r from-slate-700 to-slate-900 bg-clip-text text-transparent">
                   market-ready products
                 </span>
               </h1>
               <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-                15+ years guiding startups through their zero-to-one journey. We transform ambitious ideas into scalable, production-ready systems that investors notice and customers love.
+                15+ years guiding startups through their zero-to-one journey. We
+                transform ambitious ideas into scalable, production-ready
+                systems that investors notice and customers love.
               </p>
               <button
                 onClick={() => scrollToSection("contact")}
@@ -150,10 +152,19 @@ function App() {
                   About
                 </h2>
                 <p className="text-lg text-slate-600 mb-4 leading-relaxed">
-                  We've spent 15+ years mastering the art of startup product development—from zero to launch, and beyond. As your technical partner, we bridge the gap between ambitious vision and bulletproof execution, ensuring your first version isn't just functional, but built to scale from day one.
+                  We've spent 15+ years mastering the art of startup product
+                  development—from zero to launch, and beyond. As your technical
+                  partner, we bridge the gap between ambitious vision and
+                  bulletproof execution, ensuring your first version isn't just
+                  functional, but built to scale from day one.
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  Whether you're architecting enterprise-grade backend systems, crafting interfaces that convert, building intelligent data pipelines, or implementing AI that drives competitive advantage—we bring full-stack expertise that eliminates the need for multiple vendors. One partner. Complete solutions. Zero technical debt.
+                  Whether you're architecting enterprise-grade backend systems,
+                  crafting interfaces that convert, building intelligent data
+                  pipelines, or implementing AI that drives competitive
+                  advantage—we bring full-stack expertise that eliminates the
+                  need for multiple vendors. One partner. Complete solutions.
+                  Zero technical debt.
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-6">
@@ -192,7 +203,8 @@ function App() {
               Expertise
             </h2>
             <p className="text-xl text-slate-600 text-center mb-16 max-w-3xl mx-auto">
-              Full-stack technical expertise across every stage of your product journey
+              Full-stack technical expertise across every stage of your product
+              journey
             </p>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -204,7 +216,11 @@ function App() {
                   Core Software Development
                 </h3>
                 <p className="text-slate-600 leading-relaxed">
-                  Clean, maintainable code isn't optional—it's your competitive moat. We build software foundations using battle-tested development practices, comprehensive testing strategies, and architectural patterns that accelerate iteration instead of slowing it down.
+                  Clean, maintainable code isn't optional—it's your competitive
+                  moat. We build software foundations using battle-tested
+                  development practices, comprehensive testing strategies, and
+                  architectural patterns that accelerate iteration instead of
+                  slowing it down.
                 </p>
               </div>
 
@@ -216,7 +232,10 @@ function App() {
                   Full-Stack Engineering
                 </h3>
                 <p className="text-slate-600 leading-relaxed">
-                  From PostgreSQL to React, from APIs to user flows—we handle the entire stack so you don't juggle multiple specialists. Seamless integration, optimal performance, and one team accountable for the complete product experience.
+                  From PostgreSQL to React, from APIs to user flows—we handle
+                  the entire stack so you don't juggle multiple specialists.
+                  Seamless integration, optimal performance, and one team
+                  accountable for the complete product experience.
                 </p>
               </div>
 
@@ -228,7 +247,10 @@ function App() {
                   Backend Systems
                 </h3>
                 <p className="text-slate-600 leading-relaxed">
-                  Your backend is where scale happens or breaks. We design resilient APIs, microservices architectures, and distributed systems engineered to handle exponential growth while maintaining sub-second response times and bank-level security.
+                  Your backend is where scale happens or breaks. We design
+                  resilient APIs, microservices architectures, and distributed
+                  systems engineered to handle exponential growth while
+                  maintaining sub-second response times and bank-level security.
                 </p>
               </div>
 
@@ -240,7 +262,10 @@ function App() {
                   Frontend Development
                 </h3>
                 <p className="text-slate-600 leading-relaxed">
-                  First impressions convert users or lose them. We craft lightning-fast, accessible interfaces using modern frameworks that don't just look beautiful—they drive engagement, reduce bounce rates, and turn visitors into customers.
+                  First impressions convert users or lose them. We craft
+                  lightning-fast, accessible interfaces using modern frameworks
+                  that don't just look beautiful—they drive engagement, reduce
+                  bounce rates, and turn visitors into customers.
                 </p>
               </div>
 
@@ -252,7 +277,10 @@ function App() {
                   Data Science & Systems
                 </h3>
                 <p className="text-slate-600 leading-relaxed">
-                  Data is only valuable when it drives decisions. We build production-grade pipelines, real-time analytics platforms, and intelligence engines that transform raw data into insights that actually move metrics—not just pretty dashboards.
+                  Data is only valuable when it drives decisions. We build
+                  production-grade pipelines, real-time analytics platforms, and
+                  intelligence engines that transform raw data into insights
+                  that actually move metrics—not just pretty dashboards.
                 </p>
               </div>
 
@@ -264,7 +292,10 @@ function App() {
                   AI & Machine Learning
                 </h3>
                 <p className="text-slate-600 leading-relaxed">
-                  AI that ships, not science projects. From recommendation systems that boost revenue to NLP that understands intent, we implement machine learning solutions grounded in business outcomes, not academic papers.
+                  AI that ships, not science projects. From recommendation
+                  systems that boost revenue to NLP that understands intent, we
+                  implement machine learning solutions grounded in business
+                  outcomes, not academic papers.
                 </p>
               </div>
             </div>
@@ -277,7 +308,8 @@ function App() {
               Our Approach
             </h2>
             <p className="text-xl text-slate-600 text-center mb-16 max-w-3xl mx-auto">
-              A proven methodology refined over 15+ years and 50+ successful launches
+              A proven methodology refined over 15+ years and 50+ successful
+              launches
             </p>
 
             <div className="grid md:grid-cols-4 gap-8">
@@ -289,7 +321,9 @@ function App() {
                   Discovery
                 </h3>
                 <p className="text-slate-600">
-                  Deep-dive sessions to align on your vision, identify technical risks early, and define success metrics that matter to your business—not just engineering vanity metrics.
+                  Deep-dive sessions to align on your vision, identify technical
+                  risks early, and define success metrics that matter to your
+                  business—not just engineering vanity metrics.
                 </p>
               </div>
 
@@ -301,7 +335,10 @@ function App() {
                   Architecture
                 </h3>
                 <p className="text-slate-600">
-                  Strategic technology decisions that balance speed-to-market with long-term scalability. We choose stacks based on your constraints—budget, timeline, team capabilities—not engineering trends.
+                  Strategic technology decisions that balance speed-to-market
+                  with long-term scalability. We choose stacks based on your
+                  constraints—budget, timeline, team capabilities—not
+                  engineering trends.
                 </p>
               </div>
 
@@ -313,7 +350,9 @@ function App() {
                   Development
                 </h3>
                 <p className="text-slate-600">
-                  Agile sprints with weekly demos, continuous deployment, and code that's documented, tested, and ready for your team to maintain—because vendor lock-in isn't in anyone's interest.
+                  Agile sprints with weekly demos, continuous deployment, and
+                  code that's documented, tested, and ready for your team to
+                  maintain—because vendor lock-in isn't in anyone's interest.
                 </p>
               </div>
 
@@ -325,7 +364,10 @@ function App() {
                   Launch & Scale
                 </h3>
                 <p className="text-slate-600">
-                  Production deployment with monitoring, performance optimization, and on-call support through critical growth phases. We don't just launch—we ensure your systems scale as your user base explodes.
+                  Production deployment with monitoring, performance
+                  optimization, and on-call support through critical growth
+                  phases. We don't just launch—we ensure your systems scale as
+                  your user base explodes.
                 </p>
               </div>
             </div>
@@ -339,7 +381,9 @@ function App() {
                 Ready to turn your startup idea into reality?
               </h2>
               <p className="text-xl text-slate-300 mb-10 max-w-2xl mx-auto">
-                Join 50+ founders who chose EvigTech to build their zero-to-one product. Let's discuss your vision, timeline, and how we can become your technical co-pilot.
+                Join 50+ founders who chose EvigTech to build their zero-to-one
+                product. Let's discuss your vision, timeline, and how we can
+                become your technical co-pilot.
               </p>
 
               <div className="flex flex-wrap justify-center gap-4 mb-10">
