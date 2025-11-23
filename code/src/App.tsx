@@ -388,10 +388,10 @@ function App() {
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
                 Ready to turn your startup idea into reality?
               </h2>
-              <p className="text-lg sm:text-xl text-slate-300 mb-8 sm:mb-10 max-w-2xl mx-auto">
+              <p className="text-lg sm:text-xl text-slate-300 mb-8 sm:mb-10">
                 Join 50+ founders who chose EvigTech to build their zero-to-one
                 product. Let's discuss your vision, timeline, and how we can
-                become your technical co-pilot.
+                become your technical co-founder.
               </p>
 
               <div className="flex flex-wrap justify-center gap-4">
