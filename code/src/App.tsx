@@ -123,15 +123,16 @@ function App() {
           <div className="max-w-7xl mx-auto">
             <div className="max-w-3xl">
               <h1 className="text-5xl md:text-7xl font-bold text-slate-900 leading-tight mb-6">
-                Turning visions into
+                Ship fast, find PMF,
                 <span className="block bg-gradient-to-r from-slate-700 to-slate-900 bg-clip-text text-transparent">
-                  market-ready products
+                  scale when you're ready
                 </span>
               </h1>
               <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-                15+ years guiding startups through their zero-to-one journey. We
-                transform ambitious ideas into scalable, production-ready
-                systems that investors notice and customers love.
+                15+ years building startup products that launch in weeks, not
+                months. We use lean tech stacks and adaptive architecture—so you
+                validate quickly with early users, then evolve to serve millions
+                when you find Product-Market Fit.
               </p>
               <button
                 onClick={() => scrollToSection("contact")}
@@ -152,19 +153,19 @@ function App() {
                   About
                 </h2>
                 <p className="text-lg text-slate-600 mb-4 leading-relaxed">
-                  We've spent 15+ years mastering the art of startup product
-                  development—from zero to launch, and beyond. As your technical
-                  partner, we bridge the gap between ambitious vision and
-                  bulletproof execution, ensuring your first version isn't just
-                  functional, but built to scale from day one.
+                  We've spent 15+ years mastering the hardest challenge in
+                  startup development: building fast enough to find
+                  Product-Market Fit, without creating technical debt that kills
+                  you at scale. Most consultants either over-engineer (slow,
+                  expensive) or build prototypes that collapse under real
+                  growth.
                 </p>
                 <p className="text-lg text-slate-600 leading-relaxed">
-                  Whether you're architecting enterprise-grade backend systems,
-                  crafting interfaces that convert, building intelligent data
-                  pipelines, or implementing AI that drives competitive
-                  advantage—we bring full-stack expertise that eliminates the
-                  need for multiple vendors. One partner. Complete solutions.
-                  Zero technical debt.
+                  Our approach is different: lean tech stacks optimized for
+                  speed, adaptive architecture designed to evolve, and pragmatic
+                  engineering that prioritizes your next milestone—whether
+                  that's 100 beta users or 10 million at scale. Full-stack
+                  expertise. One partner. Systems that grow with you.
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-6">
@@ -216,11 +217,12 @@ function App() {
                   Core Software Development
                 </h3>
                 <p className="text-slate-600 leading-relaxed">
-                  Clean, maintainable code isn't optional—it's your competitive
-                  moat. We build software foundations using battle-tested
-                  development practices, comprehensive testing strategies, and
-                  architectural patterns that accelerate iteration instead of
-                  slowing it down.
+                  Clean, maintainable code is your competitive moat—but
+                  perfectionism kills startups. We write pragmatic, well-tested
+                  code using proven patterns that accelerate shipping, not slow
+                  it down. The result: systems you can iterate on rapidly
+                  pre-PMF, and refactor confidently when you're scaling to
+                  millions.
                 </p>
               </div>
 
@@ -247,10 +249,12 @@ function App() {
                   Backend Systems
                 </h3>
                 <p className="text-slate-600 leading-relaxed">
-                  Your backend is where scale happens or breaks. We design
-                  resilient APIs, microservices architectures, and distributed
-                  systems engineered to handle exponential growth while
-                  maintaining sub-second response times and bank-level security.
+                  Your backend determines how fast you ship and how far you
+                  scale. We design systems right-sized for your stage: simple,
+                  focused architectures that get you to market in weeks, with
+                  clean foundations that evolve into distributed systems when
+                  your growth demands it. Fast APIs. Bank-level security. No
+                  over-engineering.
                 </p>
               </div>
 
@@ -332,13 +336,15 @@ function App() {
                   2
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 mb-3">
-                  Architecture
+                  Adaptive Architecture
                 </h3>
                 <p className="text-slate-600">
-                  Strategic technology decisions that balance speed-to-market
-                  with long-term scalability. We choose stacks based on your
-                  constraints—budget, timeline, team capabilities—not
-                  engineering trends.
+                  We don't build for 10 million users on day one. Instead, we
+                  choose lean stacks and patterns that optimize for your current
+                  milestone: fast validation with early users, clean foundations
+                  that refactor as you find PMF, scalable infrastructure that
+                  grows when your metrics justify it. Right-sized technology,
+                  every stage.
                 </p>
               </div>
 
@@ -350,9 +356,11 @@ function App() {
                   Development
                 </h3>
                 <p className="text-slate-600">
-                  Agile sprints with weekly demos, continuous deployment, and
-                  code that's documented, tested, and ready for your team to
-                  maintain—because vendor lock-in isn't in anyone's interest.
+                  Rapid iteration with weekly demos, continuous deployment, and
+                  pragmatic code quality that balances speed and
+                  maintainability. Your codebase stays well-documented and
+                  transfer-ready—because we're building your long-term asset,
+                  not our vendor lock-in.
                 </p>
               </div>
 
