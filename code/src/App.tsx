@@ -123,9 +123,9 @@ function App() {
           <div className="max-w-7xl mx-auto">
             <div className="max-w-3xl">
               <h1 className="text-5xl md:text-7xl font-bold text-slate-900 leading-tight mb-6">
-                Ship fast, find PMF,
+                Turning visions into
                 <span className="block bg-gradient-to-r from-slate-700 to-slate-900 bg-clip-text text-transparent">
-                  scale when you're ready
+                  PMF ready products
                 </span>
               </h1>
               <p className="text-xl text-slate-600 mb-8 leading-relaxed">
