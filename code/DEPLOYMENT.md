@@ -4,11 +4,11 @@
 
 Before deploying to production, ensure you have:
 
-1. **Updated Personal Information**:
-   - [ ] Email address in `src/App.tsx` (currently: contact@kavyasoni.com)
-   - [ ] LinkedIn URL in `src/App.tsx` (currently: https://linkedin.com/in/kavyasoni)
-   - [ ] GitHub URL in `src/App.tsx` (currently: https://github.com/kavyasoni)
-   - [ ] Website URL in `index.html` Open Graph tags (currently: https://kavyasoni.com)
+1. **Updated Company Information**:
+   - [ ] Email address in `src/App.tsx` (currently: contact@evigtech.com)
+   - [ ] LinkedIn URL in `src/App.tsx` (currently: https://linkedin.com/company/evigtech)
+   - [ ] GitHub URL in `src/App.tsx` (currently: https://github.com/evigtech)
+   - [ ] Website URL in `index.html` Open Graph tags (currently: https://evigtech.com)
 
 2. **SEO & Meta Tags**:
    - [ ] Add Open Graph image (`og:image` meta tag in `index.html`)

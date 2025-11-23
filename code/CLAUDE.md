@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a personal portfolio/consulting website for a technical consultant specializing in startup product development. Built as a single-page application (SPA) using React + TypeScript + Vite with Tailwind CSS for styling.
+This is a company website for EvigTech, a technical consulting company specializing in startup product development. Built as a single-page application (SPA) using React + TypeScript + Vite with Tailwind CSS for styling.
 
 ## Technology Stack
 
@@ -204,10 +204,10 @@ The codebase includes several production-ready features:
 - Vite optimizations applied
 
 ### Files to Update Before Production
-1. **Contact Information** (src/App.tsx:256): Update email from contact@kavyasoni.com
-2. **Social Links** (src/App.tsx:263, 275): Verify LinkedIn and GitHub URLs
-3. **Meta Tags** (index.html:16): Update og:url with actual domain
-4. **Favicon** (public/favicon.svg): Replace with professional logo/icon (basic SVG provided)
+1. **Contact Information** (src/App.tsx:256): Email is set to contact@evigtech.com (update if different)
+2. **Social Links** (src/App.tsx:263, 275): Verify LinkedIn (linkedin.com/company/evigtech) and GitHub (github.com/evigtech) URLs are correct
+3. **Meta Tags** (index.html:16): Update og:url with actual domain (currently set to evigtech.com)
+4. **Favicon** (public/favicon.svg): Replace with EvigTech logo/icon (basic SVG provided)
 5. **OG Images**: Add og:image and twitter:image URLs after creating social media preview images
 
 ### Security

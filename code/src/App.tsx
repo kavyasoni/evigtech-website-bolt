@@ -19,7 +19,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="text-2xl font-bold bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent">
-              Kavya Soni
+              EvigTech
             </div>
 
             <div className="hidden md:flex space-x-8">
@@ -61,8 +61,8 @@ function App() {
               <span className="block bg-gradient-to-r from-slate-700 to-slate-900 bg-clip-text text-transparent">one startup at a time</span>
             </h1>
             <p className="text-xl text-slate-600 mb-8 leading-relaxed">
-              Technical consultant specializing in zero-to-one product development.
-              I help ambitious startups transform ideas into scalable, production-ready systems.
+              A technical consulting company specializing in zero-to-one product development.
+              We help ambitious startups transform ideas into scalable, production-ready systems.
             </p>
             <button
               onClick={() => scrollToSection('contact')}
@@ -81,13 +81,13 @@ function App() {
             <div>
               <h2 className="text-4xl font-bold text-slate-900 mb-6">About</h2>
               <p className="text-lg text-slate-600 mb-4 leading-relaxed">
-                I'm a technical consultant who bridges the gap between vision and execution.
-                With deep expertise across the entire technology stack, I help startups navigate
+                We're a technical consulting company that bridges the gap between vision and execution.
+                With deep expertise across the entire technology stack, we help startups navigate
                 their critical early stages.
               </p>
               <p className="text-lg text-slate-600 leading-relaxed">
                 From architecting robust backend systems to crafting intuitive user experiences,
-                from building data pipelines to implementing AI solutions—I bring a comprehensive
+                from building data pipelines to implementing AI solutions—we bring a comprehensive
                 approach to product development that ensures your technology foundation is built to scale.
               </p>
             </div>
@@ -192,7 +192,7 @@ function App() {
 
       <section id="approach" className="py-20 px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-slate-900 mb-4 text-center">My Approach</h2>
+          <h2 className="text-4xl font-bold text-slate-900 mb-4 text-center">Our Approach</h2>
           <p className="text-xl text-slate-600 text-center mb-16 max-w-3xl mx-auto">
             A structured methodology that takes your startup from concept to launch
           </p>
@@ -248,19 +248,19 @@ function App() {
               Ready to build something exceptional?
             </h2>
             <p className="text-xl text-slate-300 mb-10 max-w-2xl mx-auto">
-              Let's discuss how I can help turn your startup vision into reality
+              Let's discuss how we can help turn your startup vision into reality
             </p>
 
             <div className="flex flex-wrap justify-center gap-4 mb-10">
               <a
-                href="mailto:contact@kavyasoni.com"
+                href="mailto:contact@evigtech.com"
                 className="inline-flex items-center gap-2 bg-white text-slate-900 px-8 py-4 rounded-lg hover:bg-slate-100 transition-all hover:shadow-lg font-semibold"
               >
                 <Mail className="w-5 h-5" />
-                Email Me
+                Email Us
               </a>
               <a
-                href="https://linkedin.com/in/kavyasoni"
+                href="https://linkedin.com/company/evigtech"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-slate-800 text-white px-8 py-4 rounded-lg hover:bg-slate-700 transition-all hover:shadow-lg border border-slate-700 font-semibold"
@@ -272,7 +272,7 @@ function App() {
 
             <div className="flex justify-center gap-6">
               <a
-                href="https://github.com/kavyasoni"
+                href="https://github.com/evigtech"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 hover:text-white transition-colors"
@@ -288,7 +288,7 @@ function App() {
 
       <footer className="py-8 px-6 lg:px-8 border-t border-slate-200" role="contentinfo">
         <div className="max-w-7xl mx-auto text-center text-slate-600">
-          <p>© 2025 Kavya Soni. All rights reserved.</p>
+          <p>© 2025 EvigTech. All rights reserved.</p>
         </div>
       </footer>
     </div>

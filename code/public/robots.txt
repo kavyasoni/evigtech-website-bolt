@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kavyasoni.com/sitemap.xml
+Sitemap: https://evigtech.com/sitemap.xml
