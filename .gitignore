@@ -17,4 +17,4 @@
 *.sw?
 
 # Keep code directory separate (has its own .gitignore)
-# Keep built files in root (index.html, assets/, favicon.svg, robots.txt) for GitHub Pages
+# Keep built files in root (index.html, assets/, favicon.png, robots.txt) for GitHub Pages

@@ -63,6 +63,7 @@ The `App.tsx` file (src/App.tsx:1) contains the entire application in a single c
 8. **Footer** (src/App.tsx:290-294) - Copyright notice
 
 The component uses:
+
 - `useState` for mobile menu toggle state
 - `scrollToSection` function for smooth scrolling navigation
 - Lucide React icons throughout (Menu, X, Mail, Linkedin, Github, ArrowRight, Code, Database, Brain, Layers, Server, Monitor)
@@ -70,6 +71,7 @@ The component uses:
 ### TypeScript Configuration
 
 The project uses strict TypeScript settings (tsconfig.app.json:1):
+
 - Target: ES2020
 - Module: ESNext with bundler resolution
 - Strict mode enabled
@@ -79,6 +81,7 @@ The project uses strict TypeScript settings (tsconfig.app.json:1):
 ### Build Configuration
 
 Vite configuration (vite.config.ts:1):
+
 - Base path set to `./` for flexible deployment
 - **Output directory:** `../` (parent directory) for GitHub Pages
 - **emptyOutDir:** `false` to preserve `.git`, `code/`, etc. in parent directory
@@ -92,7 +95,7 @@ This repository is organized for GitHub Pages deployment:
 /repo-root/                  # GitHub Pages serves from here
 ├── index.html              # Built HTML (DO NOT edit directly)
 ├── assets/                 # Built JS/CSS (generated)
-├── favicon.svg             # Built favicon
+├── favicon.png             # Built favicon
 ├── robots.txt              # Built robots.txt
 ├── README.md               # Repository overview
 └── code/                   # SOURCE CODE DIRECTORY
@@ -104,6 +107,7 @@ This repository is organized for GitHub Pages deployment:
 ```
 
 **Important:**
+
 - All source code edits happen in `/code` directory
 - `npm run build` outputs to parent directory (`../`)
 - Root files are built artifacts for GitHub Pages
@@ -120,6 +124,7 @@ This project uses Tailwind CSS utility classes exclusively. The design system fo
 - **Components**: Card-based layouts with rounded borders and subtle shadows
 
 Key design patterns:
+
 - Gradient text using `bg-gradient-to-r bg-clip-text text-transparent`
 - Glass-morphism navigation with `backdrop-blur-md`
 - Hover scale effects on icons and cards
@@ -130,6 +135,7 @@ Key design patterns:
 ### Adding New Sections
 
 When adding new sections to the website:
+
 1. Add section with unique `id` attribute for scroll navigation
 2. Update navigation buttons to include the new section
 3. Maintain consistent section structure: outer section with padding, inner max-w-7xl container
@@ -138,6 +144,7 @@ When adding new sections to the website:
 ### Component Extraction
 
 If the application grows, consider extracting sections from App.tsx into separate components:
+
 - Navigation → `components/Navigation.tsx`
 - Hero → `components/Hero.tsx`
 - Expertise cards → `components/ExpertiseCard.tsx` (with data-driven approach)
@@ -161,6 +168,7 @@ The build outputs to parent directory (`../`) with relative paths (`base: './'`)
 5. Commit both source code AND built files
 
 **Build Process:**
+
 ```bash
 cd code
 npm run build        # Outputs to ../
@@ -173,6 +181,7 @@ git push
 
 **Alternative Hosting:**
 The built files can also be deployed to:
+
 - Netlify (drag & drop root directory)
 - Vercel (configure build: `cd code && npm run build`, output: `./`)
 - Any static hosting
@@ -184,12 +193,14 @@ See `DEPLOYMENT.md` for comprehensive deployment instructions and pre-deployment
 The codebase includes several production-ready features:
 
 ### SEO & Meta Tags (index.html:1)
+
 - Comprehensive meta tags (description, keywords, author)
 - Open Graph tags for social sharing
 - Twitter Card tags
 - Proper page title and description
 
 ### Accessibility
+
 - Skip-to-content link for keyboard navigation (src/App.tsx:16)
 - Semantic HTML with proper ARIA labels and roles
 - Mobile menu has aria-expanded and aria-label attributes (src/App.tsx:32-33)
@@ -198,19 +209,22 @@ The codebase includes several production-ready features:
 - Main landmark wraps primary content (src/App.tsx:55)
 
 ### Performance
+
 - Optimized build size: ~54KB gzipped total
 - Code splitting enabled
 - Tailwind CSS purged of unused styles
 - Vite optimizations applied
 
 ### Files to Update Before Production
+
 1. **Contact Information** (src/App.tsx:256): Email is set to contact@evigtech.com (update if different)
 2. **Social Links** (src/App.tsx:263, 275): Verify LinkedIn (linkedin.com/company/evigtech) and GitHub (github.com/evigtech) URLs are correct
 3. **Meta Tags** (index.html:16): Update og:url with actual domain (currently set to evigtech.com)
-4. **Favicon** (public/favicon.svg): Replace with EvigTech logo/icon (basic SVG provided)
+4. **Favicon** (public/favicon.png): Replace with EvigTech logo/icon (basic SVG provided)
 5. **OG Images**: Add og:image and twitter:image URLs after creating social media preview images
 
 ### Security
+
 - All external links use `rel="noopener noreferrer"`
 - No sensitive data in client-side code
 - Environment variables template provided (.env.example)

@@ -2,8 +2,6 @@ import {
   Menu,
   X,
   Mail,
-  Linkedin,
-  Github,
   ArrowRight,
   Code,
   Database,
@@ -38,9 +36,13 @@ function App() {
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="text-2xl font-bold bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent">
-              EvigTech
-            </div>
+            <img
+              src="/evigtech_logo.png"
+              alt="EvigTech"
+              className="h-8 w-auto object-contain"
+              width="120"
+              height="32"
+            />
 
             <div className="hidden md:flex space-x-8">
               <button

@@ -5,15 +5,17 @@
 Before deploying to production, ensure you have:
 
 1. **Updated Company Information**:
+
    - [ ] Email address in `src/App.tsx` (currently: contact@evigtech.com)
    - [ ] LinkedIn URL in `src/App.tsx` (currently: https://linkedin.com/company/evigtech)
    - [ ] GitHub URL in `src/App.tsx` (currently: https://github.com/evigtech)
    - [ ] Website URL in `index.html` Open Graph tags (currently: https://evigtech.com)
 
 2. **SEO & Meta Tags**:
+
    - [ ] Add Open Graph image (`og:image` meta tag in `index.html`)
    - [ ] Add Twitter card image (`twitter:image` meta tag in `index.html`)
-   - [ ] Create and upload favicon to `/public/favicon.svg` (basic one provided)
+   - [ ] Create and upload favicon to `/public/favicon.png` (basic one provided)
    - [ ] Update sitemap URL in `/public/robots.txt` if needed
 
 3. **Testing**:
@@ -82,12 +84,14 @@ If you need environment variables (e.g., for Supabase, analytics):
 ## Performance Optimization
 
 The build is already optimized with:
+
 - Code splitting
 - Minification
 - Tree shaking
 - CSS optimization with Tailwind CSS purge
 
 Current build size (gzipped):
+
 - HTML: ~0.64 KB
 - CSS: ~3.31 KB
 - JS: ~50.47 KB
@@ -103,6 +107,7 @@ Current build size (gzipped):
 ## Remaining Security Vulnerabilities
 
 The project has 2 moderate severity vulnerabilities in development dependencies (esbuild/vite):
+
 - These affect only the development server, not production builds
 - The vulnerability allows requests to the dev server (not applicable in production)
 - To address, upgrade to Vite 7+ (breaking changes may apply)
@@ -110,5 +115,6 @@ The project has 2 moderate severity vulnerabilities in development dependencies 
 ## Support
 
 For issues or questions about deployment, consult:
+
 - Vite documentation: https://vitejs.dev/guide/static-deploy.html
 - Your hosting provider's documentation

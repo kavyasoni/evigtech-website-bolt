@@ -12,7 +12,7 @@ This repository is organized for GitHub Pages deployment:
 /                          # GitHub Pages serves from here
 ├── index.html            # Built production files
 ├── assets/               # Built JS/CSS bundles
-├── favicon.svg           # Site favicon
+├── favicon.png           # Site favicon
 ├── robots.txt            # SEO configuration
 └── code/                 # Source code (not served)
     ├── src/              # React application source
